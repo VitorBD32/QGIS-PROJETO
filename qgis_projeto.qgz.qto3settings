@@ -1,0 +1,321 @@
+{
+  "CAMERA": "ORTHO",
+  "KEYFRAMES": {
+    "camera": {
+      "tracks": []
+    },
+    "layers": {
+      "05S435ZN_a4471c2c_d376_4c7c_adcd_5062038a7f51": {
+        "enabled": true,
+        "tracks": []
+      },
+      "COTA_ELEVACAO_63cb466d_df9e_45f4_aa05_823fad980df8": {
+        "enabled": true,
+        "tracks": []
+      },
+      "MDE_ZONA_LESTE_TERESINA_4884bfd6_257e_4098_8689_94d738bffb9d": {
+        "enabled": true,
+        "tracks": []
+      },
+      "MODELO_MDE_TESTE_18d29639_71d7_488f_97ba_1955b0758dce": {
+        "enabled": true,
+        "tracks": []
+      },
+      "OUTPUT_50ae1347_e7c5_4043_93e2_6929e55b969d": {
+        "enabled": true,
+        "tracks": []
+      },
+      "OUTPUT_61a04487_4ee0_45aa_ae01_673ddd685a69": {
+        "enabled": true,
+        "tracks": []
+      },
+      "TESTE_MDE_b2d0f80d_c9a3_4c4c_8634_3e05d48dc25d": {
+        "enabled": true,
+        "tracks": []
+      },
+      "Zoneamento_Lei_5_807_2022_62857aae_6f7a_4872_91b5_49d4bb61dd46": {
+        "enabled": true,
+        "tracks": []
+      },
+      "fp:b05886d4": {
+        "enabled": true,
+        "tracks": []
+      },
+      "lugares_teste_4cdc4075_e395_4fa3_8704_1274e170c4a4": {
+        "enabled": true,
+        "tracks": []
+      },
+      "plugin:gsielevtile": {
+        "enabled": true,
+        "tracks": []
+      },
+      "raster_teste_teresina_997998c4_637b_4249_9498_cbdee4e41368": {
+        "enabled": true,
+        "tracks": []
+      }
+    },
+    "repeat": false
+  },
+  "LAYERS": [
+    {
+      "geomType": 1,
+      "layerId": "lugares_teste_4cdc4075_e395_4fa3_8704_1274e170c4a4",
+      "name": "lugares_teste",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "raster_teste_teresina_997998c4_637b_4249_9498_cbdee4e41368",
+      "name": "raster_teste_teresina",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 2,
+      "layerId": "COTA_ELEVACAO_63cb466d_df9e_45f4_aa05_823fad980df8",
+      "name": "COTA ELEVACAO",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "OUTPUT_50ae1347_e7c5_4043_93e2_6929e55b969d",
+      "name": "Reprojetado(a)",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Frame": false,
+        "checkBox_Sides": false,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "checkBox_Wireframe": false,
+        "colorButton_Edge": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_Side": [
+          204,
+          187,
+          170,
+          255
+        ],
+        "colorButton_Wireframe": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "comboBox_ClipLayer": "Zoneamento_Lei_5_807_2022_62857aae_6f7a_4872_91b5_49d4bb61dd46",
+        "horizontalSlider_DEMSize": 2,
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "",
+        "materials": [
+          {
+            "id": "a381b1ba",
+            "name": "map (canvas)",
+            "properties": {
+              "checkBox_Shading": true,
+              "checkBox_TransparentBackground": false,
+              "colorButton_Color": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "comboBox_TextureSize": "1024",
+              "layerIds": [],
+              "lineEdit_ImageFile": "",
+              "radioButton_JPEG": true,
+              "spinBox_Opacity": 100
+            },
+            "type": 0
+          }
+        ],
+        "mtlId": "a381b1ba",
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3,
+        "spinBox_TileSideSegments": 500
+      },
+      "visible": true
+    },
+    {
+      "geomType": 0,
+      "layerId": "OUTPUT_61a04487_4ee0_45aa_ae01_673ddd685a69",
+      "name": "Reprojetado(a)",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Frame": false,
+        "checkBox_Sides": false,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "checkBox_Wireframe": false,
+        "colorButton_Edge": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_Side": [
+          204,
+          187,
+          170,
+          255
+        ],
+        "colorButton_Wireframe": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "comboBox_ClipLayer": "Zoneamento_Lei_5_807_2022_62857aae_6f7a_4872_91b5_49d4bb61dd46",
+        "horizontalSlider_DEMSize": 2,
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "",
+        "materials": [
+          {
+            "id": "d24ea073",
+            "name": "map (canvas)",
+            "properties": {
+              "checkBox_Shading": true,
+              "checkBox_TransparentBackground": false,
+              "colorButton_Color": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "comboBox_TextureSize": "1024",
+              "layerIds": [],
+              "lineEdit_ImageFile": "",
+              "radioButton_JPEG": true,
+              "spinBox_Opacity": 100
+            },
+            "type": 0
+          }
+        ],
+        "mtlId": "d24ea073",
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3,
+        "spinBox_TileSideSegments": 500
+      },
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "MDE_ZONA_LESTE_TERESINA_4884bfd6_257e_4098_8689_94d738bffb9d",
+      "name": "MDE_ZONA_LESTE_TERESINA",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Frame": false,
+        "checkBox_Sides": false,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "checkBox_Wireframe": false,
+        "colorButton_Edge": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_Side": [
+          204,
+          187,
+          170,
+          255
+        ],
+        "colorButton_Wireframe": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "comboBox_ClipLayer": "Zoneamento_Lei_5_807_2022_62857aae_6f7a_4872_91b5_49d4bb61dd46",
+        "horizontalSlider_DEMSize": 2,
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "",
+        "materials": [
+          {
+            "id": "a4e412a0",
+            "name": "map (canvas)",
+            "properties": {
+              "checkBox_Shading": true,
+              "checkBox_TransparentBackground": true,
+              "colorButton_Color": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "comboBox_TextureSize": "1024",
+              "layerIds": [],
+              "lineEdit_ImageFile": "",
+              "radioButton_JPEG": true,
+              "spinBox_Opacity": 100
+            },
+            "type": 0
+          }
+        ],
+        "mtlId": "a4e412a0",
+        "radioButton_ClipPolygon": true,
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3,
+        "spinBox_TileSideSegments": 500
+      },
+      "visible": false
+    },
+    {
+      "geomType": 3,
+      "layerId": "Zoneamento_Lei_5_807_2022_62857aae_6f7a_4872_91b5_49d4bb61dd46",
+      "name": "Zoneamento-Lei-5.807-2022",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "05S435ZN_a4471c2c_d376_4c7c_adcd_5062038a7f51",
+      "name": "05S435ZN",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "MODELO_MDE_TESTE_18d29639_71d7_488f_97ba_1955b0758dce",
+      "name": "MODELO MDE TESTE",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "TESTE_MDE_b2d0f80d_c9a3_4c4c_8634_3e05d48dc25d",
+      "name": "TESTE MDE.tif",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "plugin:gsielevtile",
+      "name": "GSI Elevation Tile",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "fp:b05886d4",
+      "name": "Flat Plane",
+      "properties": {},
+      "visible": false
+    }
+  ],
+  "Version": 20904,
+  "WIDGETS": {
+    "Navi": {
+      "enabled": false
+    },
+    "NorthArrow": {
+      "color": "0x666666",
+      "visible": true
+    }
+  }
+}
